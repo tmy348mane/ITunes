@@ -1,0 +1,137 @@
+.cardContainer {
+    position: relative;
+    /* margin:5px; */
+    margin-top: 20px;
+
+    display: block;
+    justify-content: center;
+}
+
+.card {
+    display: block;
+    height: 310px;
+    width: 230px;
+     background-color:#1F1F1F;
+    border-radius: 10px;
+    z-index: 2;
+    margin: 1px;
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+    box-shadow: 1rem 0 3rem #000;
+}
+
+.img {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    color: white;
+    filter: opacity(0.9);
+    position: absolute;
+    /* left: 30%; */
+    top: 155px;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+.track{
+    color: white;
+    filter: opacity(0.5);
+    position: absolute;
+    /* left: 30%; */
+    top: 180px;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    font-weight: lighter;
+    font-size: smaller;
+
+}
+.preview{
+   position: relative;
+   top:90px;
+   height: 20px;
+   background: transparent;
+   height: 30px;
+   padding: 4px 15px;
+   font-size: 14px;
+   border-radius: 32px;
+   color:white;
+   border: 1px solid white;
+   filter: opacity(0.5);
+   cursor: pointer;
+   text-align: center;
+}
+.preview:hover{
+    border: 1px solid #E43F5A;
+    color:#E43F5A;
+    filter: opacity(2);
+}
+
+.emptybarOne{
+    position: absolute;
+    border-radius: 10px;
+    height: 2px;
+    width: 40%;
+    left:30%;
+    top: 212px;
+    background-color: #E43F5A;
+}
+.short{
+    color: white;
+    filter: opacity(0.3);
+    position: absolute;
+    /* left: 30%; */
+    top: 215px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right:20px;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 10px;
+
+}
+
+
+.bar {
+    position: absolute;
+    top: 95%;
+    left: 20px;
+    height: 3px;
+    width: 80%;
+}
+
+.emptybar {
+    background-color: #2e3033;
+    /* background-color: #252526; */
+    width: 100%;
+    height: 100%;
+    
+}
+
+.filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background-color: #E43F5A;
+    /* background: linear-gradient(90deg, rgba(0, 154, 217, 1) 0%, rgba(217, 147, 0, 1) 65%, rgba(255, 186, 0, 1) 100%); */
+    transition: 0.6s ease-out;
+}
+
+.card:hover .filledbar {
+    width: 100%;
+    transition: 0.4s ease-out;
+}
