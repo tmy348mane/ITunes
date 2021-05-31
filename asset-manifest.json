@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/iTunes/static/css/main.e07ea480.chunk.css",
+    "main.js": "/iTunes/static/js/main.d538e6c3.chunk.js",
+    "main.js.map": "/iTunes/static/js/main.d538e6c3.chunk.js.map",
+    "runtime-main.js": "/iTunes/static/js/runtime-main.f383772a.js",
+    "runtime-main.js.map": "/iTunes/static/js/runtime-main.f383772a.js.map",
+    "static/css/2.50d87aa4.chunk.css": "/iTunes/static/css/2.50d87aa4.chunk.css",
+    "static/js/2.93f7989e.chunk.js": "/iTunes/static/js/2.93f7989e.chunk.js",
+    "static/js/2.93f7989e.chunk.js.map": "/iTunes/static/js/2.93f7989e.chunk.js.map",
+    "static/js/3.ad51d400.chunk.js": "/iTunes/static/js/3.ad51d400.chunk.js",
+    "static/js/3.ad51d400.chunk.js.map": "/iTunes/static/js/3.ad51d400.chunk.js.map",
+    "index.html": "/iTunes/index.html",
+    "static/css/2.50d87aa4.chunk.css.map": "/iTunes/static/css/2.50d87aa4.chunk.css.map",
+    "static/css/main.e07ea480.chunk.css.map": "/iTunes/static/css/main.e07ea480.chunk.css.map",
+    "static/js/2.93f7989e.chunk.js.LICENSE.txt": "/iTunes/static/js/2.93f7989e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f383772a.js",
+    "static/css/2.50d87aa4.chunk.css",
+    "static/js/2.93f7989e.chunk.js",
+    "static/css/main.e07ea480.chunk.css",
+    "static/js/main.d538e6c3.chunk.js"
+  ]
+}
